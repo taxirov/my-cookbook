@@ -1,0 +1,16 @@
+@url=http://localhost:3030
+
+###
+POST {{url}}/book
+Content-Type: application/json
+
+{
+    "name": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "image": "https://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/cover.jpg",
+    "desc": "'A concise and balanced mix of principles and pragmatics. I loved the tutorial-style game-like program development. This book rekindled my earliest joys of programming. Plus, JavaScript!' —Brendan Eich, creator of JavaScript",
+    "tags": ["js", "javasript", "programming"]
+}
+
+###
+GET {{url}}/book
